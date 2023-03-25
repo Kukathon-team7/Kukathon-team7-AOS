@@ -18,19 +18,22 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="24dp"
-            android:orientation="horizontal">
-            
+            android:orientation="horizontal"
+            android:id="@+id/btn">
+
             <ImageButton
-                android:layout_marginLeft="330dp"
+                android:layout_marginLeft="310dp"
                 android:layout_width="24dp"
                 android:layout_height="24dp"
                 android:src="@drawable/home"
                 android:backgroundTint="#ffffff">
 
             </ImageButton>
+
             <ImageButton
                 android:id="@+id/btn_notice"
                 android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
                 android:layout_width="24dp"
                 android:layout_height="24dp"
                 android:src="@drawable/alarm"
@@ -92,7 +95,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="헷갈리기 쉬운 소기비한 식품"
-        android:fontFamily="@font/pretendard_medium"
+        android:fontFamily="@font/pretendard_bold"
         android:textStyle="bold"
         />
 
@@ -175,7 +178,7 @@
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_marginTop="100dp"
+        android:layout_marginTop="90dp"
         android:layout_height="72dp"
         android:layout_gravity="center"
         android:orientation="horizontal">

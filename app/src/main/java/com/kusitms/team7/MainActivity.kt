@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.EditText
 import android.widget.ImageButton
+import android.widget.LinearLayout
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -12,7 +13,7 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
         val search_btn = findViewById<ImageButton>(R.id.search_btn)
-
+        // val btn = findViewById<LinearLayout>(R.id.btn)
         val most_search_4 = findViewById<ImageButton>(R.id.most_search_4)
         val btn_enroll = findViewById<ImageButton>(R.id.btn_enroll)
         val btn_myPage = findViewById<ImageButton>(R.id.btn_myPage)
