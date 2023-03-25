@@ -13,6 +13,7 @@ class MainActivity : AppCompatActivity() {
 
         val search_btn = findViewById<ImageButton>(R.id.search_btn)
 
+        val most_search_4 = findViewById<ImageButton>(R.id.most_search_4)
         val btn_enroll = findViewById<ImageButton>(R.id.btn_enroll)
         val btn_myPage = findViewById<ImageButton>(R.id.btn_myPage)
         val btn_notice = findViewById<ImageButton>(R.id.btn_notice)
@@ -23,6 +24,12 @@ class MainActivity : AppCompatActivity() {
             finish()
         }
 
+
+        most_search_4.setOnClickListener {
+            val intent = Intent(this, Search_bread::class.java)
+            startActivity(intent)
+            finish()
+        }
 
 
         btn_enroll.setOnClickListener {

@@ -340,36 +340,6 @@
 
         </LinearLayout>
 
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_marginTop="40dp"
-            android:layout_height="72dp"
-            android:layout_gravity="center"
-            android:orientation="horizontal">
-
-            <ImageButton
-                android:id="@+id/btn_community"
-                android:src="@drawable/community"
-                android:layout_weight="1"
-                android:layout_width="wrap_content"
-                android:layout_height="match_parent"
-                android:backgroundTint="@color/white"/>
-            <ImageButton
-                android:id="@+id/btn_enroll"
-                android:src="@drawable/ic_enroll_unchecked"
-                android:layout_weight="1"
-                android:layout_width="wrap_content"
-                android:layout_height="match_parent"
-                android:backgroundTint="@color/white"/>
-            <ImageButton
-                android:id="@+id/btn_myPage"
-                android:src="@drawable/mypage_select"
-                android:layout_weight="1"
-                android:layout_width="wrap_content"
-                android:layout_height="match_parent"
-                android:backgroundTint="@color/white"/>
-
-        </LinearLayout>
 
 
     </LinearLayout>

@@ -125,19 +125,19 @@
         android:paddingBottom="15dp"
         android:background="@drawable/radio_back">
 
-    <RadioButton
-        android:id="@+id/radioButton"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="소비기한을 입력할래요"
-        android:fontFamily="@font/pretendard_medium"/>
+        <RadioButton
+            android:id="@+id/radioButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="소비기한을 입력할래요"
+            android:fontFamily="@font/pretendard_medium"/>
 
-    <RadioButton
-        android:id="@+id/radioButton2"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="제조일자를 입력할래요."
-        android:fontFamily="@font/pretendard_medium"/>
+        <RadioButton
+            android:id="@+id/radioButton2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="제조일자를 입력할래요."
+            android:fontFamily="@font/pretendard_medium"/>
 
         <RadioButton
             android:id="@+id/radioButton3"

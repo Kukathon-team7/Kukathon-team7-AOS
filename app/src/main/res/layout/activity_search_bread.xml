@@ -7,73 +7,74 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     tools:context=".Search"
     android:orientation="vertical">
-    
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical"
         android:background="#25CE7B">
-    <LinearLayout
-        android:layout_marginTop="10dp"
-        android:layout_width="match_parent"
-        android:layout_height="56dp"
-        android:orientation="horizontal">
+        <LinearLayout
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:orientation="horizontal">
 
-        <ImageButton
-            android:id="@+id/btn_back"
-            android:layout_marginLeft="20dp"
-            android:layout_width="wrap_content"
+            <ImageButton
+                android:id="@+id/btn_back"
+                android:layout_marginLeft="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/arrow"
+                android:backgroundTint="#25CE7B"
+                android:layout_gravity="center"/>
+
+            <TextView
+                android:layout_marginLeft="105dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="상품 검색"
+                android:fontFamily="@font/pretendard_medium"
+                android:textSize="18sp"
+                android:textColor="#ffffff"
+                android:layout_gravity="center"
+                />
+
+            <ImageButton
+                android:layout_marginLeft="100dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/search"
+                android:backgroundTint="#25CE7B"
+                android:layout_gravity="center"/>
+
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_margin="20dp"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:src="@drawable/arrow"
-            android:backgroundTint="#25CE7B"
-            android:layout_gravity="center"/>
+            android:orientation="horizontal">
 
-        <TextView
-            android:layout_marginLeft="105dp"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="상품 검색"
-            android:fontFamily="@font/pretendard_medium"
-            android:textSize="18sp"
-            android:textColor="#ffffff"
-            android:layout_gravity="center"
-            />
+            <ImageView
+                android:layout_marginLeft="32dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/bbbbrrrrr"
+                android:background="@drawable/breadddd"/>
 
-        <ImageButton
-            android:layout_marginLeft="100dp"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:src="@drawable/search"
-            android:backgroundTint="#25CE7B"
-            android:layout_gravity="center"/>
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:text="식빵"
+                android:fontFamily="@font/pretendard_bold"
+                android:textSize="32dp"
+                android:textStyle="bold"
+                android:layout_gravity="center"/>
 
-
-
-    </LinearLayout>
-
-    <LinearLayout
-        android:layout_margin="20dp"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal">
-
-        <ImageView
-            android:layout_marginLeft="32dp"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:src="@drawable/green_background"/>
-
-        <TextView
-            android:layout_marginLeft="20dp"
-            android:layout_width="80dp"
-            android:layout_height="wrap_content"
-            android:text="계란"
-            android:fontFamily="@font/pretendard_medium"
-            android:textSize="32dp"
-            android:textStyle="bold"
-            android:layout_gravity="center"/>
-
-    </LinearLayout>
+        </LinearLayout>
 
 
     </LinearLayout>
@@ -94,9 +95,9 @@
             android:text="소비기한"
             android:fontFamily="@font/pretendard_semibold"
             android:textSize="18sp"
-            />
+            android:textStyle="bold"/>
         <TextView
-           android:layout_marginLeft="10dp"
+            android:layout_marginLeft="10dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:fontFamily="@font/pretendard_regular"
@@ -175,7 +176,7 @@
             android:layout_width="match_parent"
             android:layout_height="68dp"
             android:orientation="horizontal">
-            
+
             <ImageView
                 android:layout_width="102dp"
                 android:layout_height="68dp"
@@ -190,7 +191,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="프렌치 토스트"
-                    android:fontFamily="@font/pretendard_semibold"
+                    android:fontFamily="@font/pretendard_regular"
                     android:textSize="14sp"
                     android:textStyle="bold"/>
 
@@ -199,7 +200,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="재료 : 식빵, 우유, 설탕, 계란"
-                    android:fontFamily="@font/pretendard_regular"
+                    android:fontFamily="@font/pretendard_medium"
                     android:textSize="12sp"
                     />
 
@@ -207,10 +208,10 @@
                     android:layout_margin="8dp"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                   android:src="@drawable/show_rec"/>
+                    android:src="@drawable/show_rec"/>
 
             </LinearLayout>
-            
+
         </LinearLayout>
 
         <LinearLayout
@@ -222,7 +223,7 @@
             <ImageView
                 android:layout_width="102dp"
                 android:layout_height="68dp"
-                android:src="@drawable/zzim"/>
+                android:src="@drawable/pizzabread"/>
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="68dp"
@@ -233,7 +234,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:fontFamily="@font/pretendard_semibold"
-                    android:text="계란찜"
+                    android:text="피자빵"
                     android:textSize="14sp"
                     android:textStyle="bold"/>
 
@@ -242,7 +243,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:fontFamily="@font/pretendard_regular"
-                    android:text="재료 : 계란, 물, 소금"
+                    android:text="재료 : 식빵, 토마토, 잼, 채소"
                     android:textSize="12sp"
                     />
 
@@ -264,7 +265,7 @@
             <ImageView
                 android:layout_width="102dp"
                 android:layout_height="68dp"
-                android:src="@drawable/scramble"/>
+                android:src="@drawable/popcorn"/>
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="68dp"
@@ -274,7 +275,7 @@
                     android:layout_marginLeft="8dp"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="스크램블에그"
+                    android:text="카라멜 식빵 팝콘"
                     android:fontFamily="@font/pretendard_semibold"
                     android:textSize="14sp"
                     android:textStyle="bold"/>
@@ -283,7 +284,7 @@
                     android:layout_marginLeft="8dp"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="재료 : 계란, 우유, 버터, 소금, 설탕"
+                    android:text="재료 : 식빵, 설탕, 물, 버터"
                     android:fontFamily="@font/pretendard_regular"
                     android:textSize="12sp"
                     />
