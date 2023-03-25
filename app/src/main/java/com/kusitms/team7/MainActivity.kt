@@ -24,7 +24,7 @@ class MainActivity : AppCompatActivity() {
         }
 
         most_search_4.setOnClickListener {
-            val intent = Intent(this, Search2::class.java)
+            val intent = Intent(this, Search_bread::class.java)
             startActivity(intent)
             finish()
         }
