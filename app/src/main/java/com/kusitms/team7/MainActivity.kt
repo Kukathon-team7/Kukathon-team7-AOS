@@ -19,6 +19,7 @@ class MainActivity : AppCompatActivity() {
             intent.putExtra("search_text",search_text.text.toString())
             startActivity(intent)
         }
+        // 머지용
 
 
     }
