@@ -15,6 +15,9 @@
         android:theme="@style/Theme.Kukathonteam7AOS"
         tools:targetApi="31">
         <activity
+            android:name=".enrollActivity"
+            android:exported="false" />
+        <activity
             android:name=".Search"
             android:exported="false" />
         <activity
@@ -23,22 +26,18 @@
         <activity
             android:name=".TutorialActivity2"
             android:exported="false" />
-
         <activity
             android:name=".TutorialActivity1"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
+
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
-
         </activity>
         <activity
             android:name=".MyFridgeActivity"
-            android:exported="true" >
-
-        </activity>
-
+            android:exported="true"></activity>
         <activity
             android:name=".MainActivity"
             android:exported="true" />
