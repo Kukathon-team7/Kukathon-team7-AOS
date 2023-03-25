@@ -5,17 +5,18 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.ImageButton
 
-class enrollActivity : AppCompatActivity() {
+class Search2 : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_enroll)
+        setContentView(R.layout.activity_search2)
 
-        val enroll_complete_btn = findViewById<ImageButton>(R.id.enroll_complete_btn)
+        val btn_back = findViewById<ImageButton>(R.id.btn_back)
 
-        enroll_complete_btn.setOnClickListener {
-            val intent = Intent(this,MainActivity::class.java)
+        btn_back.setOnClickListener {
+            val intent = Intent(this, MainActivity::class.java)
             startActivity(intent)
             finish()
+
         }
     }
 }

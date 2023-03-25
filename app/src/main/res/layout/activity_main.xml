@@ -29,6 +29,7 @@
 
             </ImageButton>
             <ImageButton
+                android:id="@+id/btn_notice"
                 android:layout_marginLeft="10dp"
                 android:layout_width="24dp"
                 android:layout_height="24dp"
