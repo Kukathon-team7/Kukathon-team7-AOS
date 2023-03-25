@@ -38,6 +38,7 @@
             android:backgroundTint="@color/white"
             android:gravity="center"
             android:text="알림 "
+            android:fontFamily="@font/pretendard_medium"
             android:textColor="@color/green_500"
             android:textSize="17sp"
             app:layout_constraintEnd_toStartOf="@+id/title_text2"
@@ -50,6 +51,7 @@
             android:backgroundTint="@color/white"
             android:gravity="center"
             android:text="창"
+            android:fontFamily="@font/pretendard_medium"
             android:textColor="@color/black"
             android:textSize="17sp"
             app:layout_constraintEnd_toEndOf="parent"
@@ -78,6 +80,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="오늘"
+                android:fontFamily="@font/pretendard_medium"
                 android:textSize="22dp"
                 android:textColor="@color/black"
                 android:textStyle="bold"/>
@@ -104,6 +107,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="계란의 "
+                android:fontFamily="@font/pretendard_medium"
                 android:textSize="16dp"
                 android:textColor="@color/black"
                 android:layout_marginTop="11dp"
@@ -113,6 +117,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="소비기한이 오늘까지입니다!"
+                android:fontFamily="@font/pretendard_medium"
                 android:textSize="16dp"
                 android:textColor="@color/red_500"
                 android:layout_marginTop="11dp" />
@@ -138,6 +143,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="두부의 "
+                android:fontFamily="@font/pretendard_medium"
                 android:textSize="16dp"
                 android:textColor="@color/black"
                 android:layout_marginTop="11dp"
@@ -148,6 +154,7 @@
                 android:layout_height="wrap_content"
                 android:text="소비기한이 오늘까지입니다!"
                 android:textSize="16dp"
+                android:fontFamily="@font/pretendard_medium"
                 android:textColor="@color/red_500"
                 android:layout_marginTop="11dp" />
 
@@ -174,6 +181,7 @@
                 android:layout_height="wrap_content"
                 android:text="식빵의 "
                 android:textSize="16dp"
+                android:fontFamily="@font/pretendard_medium"
                 android:textColor="@color/black"
                 android:layout_marginTop="11dp"
                 android:layout_marginLeft="15dp"/>
@@ -183,6 +191,7 @@
                 android:layout_height="wrap_content"
                 android:text="소비기한이 오늘까지입니다!"
                 android:textSize="16dp"
+                android:fontFamily="@font/pretendard_medium"
                 android:textColor="@color/red_500"
                 android:layout_marginTop="11dp" />
 
@@ -209,6 +218,7 @@
                 android:layout_height="wrap_content"
                 android:text="1일 전"
                 android:textSize="22dp"
+                android:fontFamily="@font/pretendard_medium"
                 android:textColor="@color/black"
                 android:textStyle="bold"/>
 
@@ -235,6 +245,7 @@
                 android:layout_height="wrap_content"
                 android:text="계란의 "
                 android:textSize="16dp"
+                android:fontFamily="@font/pretendard_medium"
                 android:textColor="@color/black"
                 android:layout_marginTop="11dp"
                 android:layout_marginLeft="15dp"/>
@@ -244,6 +255,7 @@
                 android:layout_height="wrap_content"
                 android:text="소비기한이 하루"
                 android:textSize="16dp"
+                android:fontFamily="@font/pretendard_medium"
                 android:textColor="@color/red_500"
                 android:layout_marginTop="11dp" />
 
@@ -252,6 +264,7 @@
                 android:layout_height="wrap_content"
                 android:text=" 남았어요!"
                 android:textSize="16dp"
+                android:fontFamily="@font/pretendard_medium"
                 android:textColor="@color/black"
                 android:layout_marginTop="11dp" />
 
@@ -275,6 +288,7 @@
                 android:layout_height="wrap_content"
                 android:text="3일 전"
                 android:textSize="22dp"
+                android:fontFamily="@font/pretendard_medium"
                 android:textColor="@color/black"
                 android:textStyle="bold"/>
 
@@ -301,6 +315,7 @@
                 android:layout_height="wrap_content"
                 android:text="식빵의 "
                 android:textSize="16dp"
+                android:fontFamily="@font/pretendard_medium"
                 android:textColor="@color/black"
                 android:layout_marginTop="11dp"
                 android:layout_marginLeft="15dp"/>
@@ -310,6 +325,7 @@
                 android:layout_height="wrap_content"
                 android:text="소비기한이 3일"
                 android:textSize="16dp"
+                android:fontFamily="@font/pretendard_medium"
                 android:textColor="@color/red_500"
                 android:layout_marginTop="11dp" />
 
@@ -318,6 +334,7 @@
                 android:layout_height="wrap_content"
                 android:text=" 남았어요!"
                 android:textSize="16dp"
+                android:fontFamily="@font/pretendard_medium"
                 android:textColor="@color/black"
                 android:layout_marginTop="11dp" />
 

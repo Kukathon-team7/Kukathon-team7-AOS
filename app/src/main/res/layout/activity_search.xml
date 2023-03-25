@@ -33,6 +33,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="상품 검색"
+            android:fontFamily="@font/pretendard_medium"
             android:textSize="18sp"
             android:textColor="#ffffff"
             android:layout_gravity="center"
@@ -67,6 +68,7 @@
             android:layout_width="80dp"
             android:layout_height="wrap_content"
             android:text="계란"
+            android:fontFamily="@font/pretendard_medium"
             android:textSize="32dp"
             android:textStyle="bold"
             android:layout_gravity="center"/>
@@ -87,12 +89,14 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="소비기한"
+            android:fontFamily="@font/pretendard_medium"
             android:textSize="18sp"
             android:textStyle="bold"/>
         <TextView
            android:layout_marginLeft="10dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:fontFamily="@font/pretendard_medium"
             android:text="* 유통기한으로 부터 기존"
             android:textSize="12sp"/>
 
@@ -107,6 +111,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="실온 보관"
+                android:fontFamily="@font/pretendard_medium"
                 android:textSize="14sp"/>
 
             <TextView
@@ -114,6 +119,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="냉장 보관"
+                android:fontFamily="@font/pretendard_medium"
                 android:textSize="14sp"/>
 
 
@@ -157,6 +163,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="유트리 추천 음식"
+            android:fontFamily="@font/pretendard_medium"
             android:textSize="18sp"
             android:layout_margin="10dp"/>
 
@@ -180,6 +187,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="프렌치 토스트"
+                    android:fontFamily="@font/pretendard_medium"
                     android:textSize="14sp"
                     android:textStyle="bold"/>
 
@@ -188,6 +196,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="재료 : 식빵, 우유, 설탕, 계란"
+                    android:fontFamily="@font/pretendard_medium"
                     android:textSize="12sp"
                     />
 
@@ -220,6 +229,7 @@
                     android:layout_marginLeft="8dp"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:fontFamily="@font/pretendard_medium"
                     android:text="계란찜"
                     android:textSize="14sp"
                     android:textStyle="bold"/>
@@ -228,6 +238,7 @@
                     android:layout_marginLeft="5dp"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:fontFamily="@font/pretendard_medium"
                     android:text="재료 : 계란, 소금, 햄"
                     android:textSize="12sp"
                     />
@@ -261,6 +272,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="스크램블 에그"
+                    android:fontFamily="@font/pretendard_medium"
                     android:textSize="14sp"
                     android:textStyle="bold"/>
 
@@ -269,6 +281,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="재료 : 계란, 우유, 버터, 소금, 설탕"
+                    android:fontFamily="@font/pretendard_medium"
                     android:textSize="12sp"
                     />
 
