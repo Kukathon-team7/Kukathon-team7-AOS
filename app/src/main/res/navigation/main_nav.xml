@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_nav"
+    app:startDestination="@id/banner1">
+
+    <fragment
+        android:id="@+id/banner1"
+        android:name="com.kusitms.team7.Banner1"
+        android:label="fragment_banner1"
+        tools:layout="@layout/fragment_banner1" >
+        <action
+            android:id="@+id/action_banner1_to_banner2"
+            app:destination="@id/banner2" />
+    </fragment>
+    <fragment
+        android:id="@+id/banner2"
+        android:name="com.kusitms.team7.Banner2"
+        android:label="fragment_banner2"
+        tools:layout="@layout/fragment_banner2" >
+        <action
+            android:id="@+id/action_banner2_to_banner3"
+            app:destination="@id/banner3" />
+    </fragment>
+    <fragment
+        android:id="@+id/banner3"
+        android:name="com.kusitms.team7.Banner3"
+        android:label="fragment_banner3"
+        tools:layout="@layout/fragment_banner3" >
+        <action
+            android:id="@+id/action_banner3_to_banner1"
+            app:destination="@id/banner1" />
+    </fragment>
+</navigation>
