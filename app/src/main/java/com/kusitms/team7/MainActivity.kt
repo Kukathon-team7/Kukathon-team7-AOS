@@ -11,12 +11,11 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
         // 머지용
-        var search_text = findViewById<EditText>(R.id.search_text)
+
         val search_btn = findViewById<ImageButton>(R.id.search_btn)
 
         search_btn.setOnClickListener {
             val intent = Intent(this,Search::class.java)
-            intent.putExtra("search_text",search_text.text.toString())
             startActivity(intent)
         }
         // 머지용

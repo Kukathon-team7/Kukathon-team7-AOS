@@ -16,6 +16,7 @@
         android:layout_height="match_parent"
         android:src="@drawable/banner_three"
         android:scaleType="fitXY"
+        android:background="@android:color/transparent"
       />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
