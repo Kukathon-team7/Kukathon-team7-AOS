@@ -8,49 +8,94 @@
     tools:context=".MainActivity"
     android:orientation="vertical">
 
-    <androidx.fragment.app.FragmentContainerView
-        android:id="@+id/fragmentContainerView"
-        android:name="androidx.navigation.fragment.NavHostFragment"
-        android:layout_width="match_parent"
-        android:layout_height="100dp"
-        app:defaultNavHost="true"
-        app:navGraph="@navigation/main_nav"
-        android:layout_margin="10dp"/>
-
-
 
     <LinearLayout
-        android:layout_margin="30dp"
-        android:layout_marginTop="100dp"
+       android:paddingTop="20dp"
         android:layout_width="match_parent"
-        android:layout_height="50dp">
+        android:layout_height="124dp"
+        android:orientation="vertical">
+        
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="24dp"
+            android:orientation="horizontal">
+            
+            <ImageButton
+                android:layout_marginLeft="330dp"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:src="@drawable/home"
+                android:backgroundTint="#ffffff">
+
+            </ImageButton>
+            <ImageButton
+                android:layout_marginLeft="10dp"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:src="@drawable/alarm"
+                android:backgroundTint="#ffffff">
+
+            </ImageButton>
+            
+            
+        </LinearLayout>
+
+        
+        <LinearLayout
+            android:paddingTop="5dp"
+            android:paddingLeft="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="84dp"
+            android:orientation="horizontal">
 
         <EditText
+            android:layout_gravity="center"
+            android:paddingTop="5dp"
             android:id="@+id/search_text"
-            android:hint="음식을 검색하세요!"
             android:layout_width="300dp"
-            android:layout_height="50dp"
-            />
+            android:layout_height="40dp"
+            android:hint="   검색어를 입력해주세요"
+            android:background="@drawable/border"/>
 
         <ImageButton
+            android:layout_gravity="center"
+            android:layout_marginLeft="5dp"
             android:id="@+id/search_btn"
-            android:layout_width="50dp"
-            android:layout_height="50dp"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/search"
+            android:background="@drawable/border_two"
+
             />
+
+        </LinearLayout>
 
 
     </LinearLayout>
 
+    <androidx.fragment.app.FragmentContainerView
+        android:id="@+id/fragmentContainerView"
+        android:name="androidx.navigation.fragment.NavHostFragment"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        app:defaultNavHost="true"
+        app:navGraph="@navigation/main_nav"
+        android:layout_margin="10dp" />
+
     <TextView
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
         android:textSize="20sp"
+        android:gravity="center"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="가장 많이 검색하는~"
+        android:text="헷갈리기 쉬운 소기비한 식품"
+        android:textStyle="bold"
         />
 
     <LinearLayout
-        android:layout_margin="10dp"
+
+
         android:layout_width="match_parent"
         android:layout_height="100dp"
         android:orientation="horizontal">
@@ -58,27 +103,36 @@
             android:id="@+id/most_search_1"
             android:layout_weight="1"
             android:layout_width="wrap_content"
-            android:layout_height="match_parent"/>
+            android:layout_height="match_parent"
+            android:src="@drawable/egg"
+            android:backgroundTint="#ffffff"/>
         <ImageButton
             android:id="@+id/most_search_2"
             android:layout_weight="1"
             android:layout_width="wrap_content"
-            android:layout_height="match_parent"/>
+            android:layout_height="match_parent"
+            android:src="@drawable/tofu"
+            android:backgroundTint="#ffffff"/>
         <ImageButton
             android:id="@+id/most_search_3"
             android:layout_weight="1"
             android:layout_width="wrap_content"
-            android:layout_height="match_parent"/>
+            android:layout_height="match_parent"
+            android:src="@drawable/milk"
+            android:backgroundTint="#ffffff"/>
         <ImageButton
             android:id="@+id/most_search_4"
             android:layout_weight="1"
             android:layout_width="wrap_content"
-            android:layout_height="match_parent"/>
+            android:layout_height="match_parent"
+            android:src="@drawable/bread"
+            android:backgroundTint="#ffffff"/>
 
     </LinearLayout>
 
+
+
     <LinearLayout
-        android:layout_margin="10dp"
         android:layout_width="match_parent"
         android:layout_height="100dp"
         android:orientation="horizontal">
@@ -86,65 +140,64 @@
             android:id="@+id/most_search_5"
             android:layout_weight="1"
             android:layout_width="wrap_content"
-            android:layout_height="match_parent"/>
+            android:layout_height="match_parent"
+            android:src="@drawable/cake"
+            android:backgroundTint="#ffffff"/>
         <ImageButton
             android:id="@+id/most_search_6"
             android:layout_weight="1"
             android:layout_width="wrap_content"
-            android:layout_height="match_parent"/>
+            android:layout_height="match_parent"
+            android:src="@drawable/yogurt"
+            android:backgroundTint="#ffffff"/>
         <ImageButton
             android:id="@+id/most_search_7"
             android:layout_weight="1"
             android:layout_width="wrap_content"
-            android:layout_height="match_parent"/>
+            android:layout_height="match_parent"
+            android:src="@drawable/tuna"
+            android:backgroundTint="#ffffff"/>
         <ImageButton
             android:id="@+id/most_search_8"
             android:layout_weight="1"
             android:layout_width="wrap_content"
-            android:layout_height="match_parent"/>
+            android:layout_height="match_parent"
+            android:src="@drawable/dumpling"
+            android:backgroundTint="#ffffff"/>
 
     </LinearLayout>
 
+
     <LinearLayout
-        android:layout_marginTop="205dp"
         android:layout_width="match_parent"
-        android:layout_height="55dp"
+        android:layout_marginTop="65dp"
+        android:layout_height="72dp"
         android:layout_gravity="center"
         android:orientation="horizontal">
 
         <ImageButton
-            android:id="@+id/btn1"
-            android:src="@drawable/btn_ex"
+            android:id="@+id/btn_community"
+            android:src="@drawable/community"
+            android:layout_weight="1"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
-            android:backgroundTint="@color/white"
-            android:paddingLeft="70dp"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
-
+            android:backgroundTint="@color/white"/>
         <ImageButton
-            android:id="@+id/btn2"
+            android:id="@+id/btn_enroll"
+            android:src="@drawable/enroll"
+            android:layout_weight="1"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
-            android:backgroundTint="@color/white"
-            android:src="@drawable/btn_ex"
-            android:paddingHorizontal="80dp"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toStartOf="@+id/btn1"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
-
+            android:backgroundTint="@color/white"/>
         <ImageButton
-            android:id="@+id/btn3"
+            android:id="@+id/btn_myPage"
+            android:src="@drawable/mypage"
+            android:layout_weight="1"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
-            android:backgroundTint="@color/white"
-            android:src="@drawable/btn_ex"
-            android:paddingRight="70dp"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toEndOf="@+id/btn1"
-            app:layout_constraintTop_toTopOf="parent" />
+            android:backgroundTint="@color/white"/>
+
+
 
     </LinearLayout>
 
