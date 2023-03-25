@@ -39,6 +39,7 @@
             android:gravity="center"
             android:text="상품 등록 "
             android:textColor="@color/green_500"
+            android:fontFamily="@font/pretendard_medium"
             android:textSize="17sp"
             app:layout_constraintEnd_toStartOf="@+id/title_text2"
             app:layout_constraintTop_toTopOf="parent" />
@@ -50,6 +51,7 @@
             android:backgroundTint="@color/white"
             android:gravity="center"
             android:text="페이지"
+            android:fontFamily="@font/pretendard_medium"
             android:textColor="@color/black"
             android:textSize="17sp"
             app:layout_constraintEnd_toEndOf="parent"
@@ -62,6 +64,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="마이 팬트리에"
+        android:fontFamily="@font/pretendard_medium"
         android:textSize="22dp"
         android:textStyle="bold"
         android:layout_marginLeft="25dp"
@@ -71,6 +74,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="등록할 상품을 입력하세요"
+        android:fontFamily="@font/pretendard_medium"
         android:textSize="22dp"
         android:textStyle="bold"
         android:layout_marginLeft="25dp"
@@ -90,6 +94,7 @@
             android:layout_width="300dp"
             android:layout_height="40dp"
             android:hint="   상품을 입력해주세요."
+            android:fontFamily="@font/pretendard_medium"
             android:background="@drawable/border"/>
 
         <ImageButton
@@ -115,19 +120,22 @@
         android:id="@+id/radioButton"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="소비기한을 입력할래요" />
+        android:text="소비기한을 입력할래요"
+        android:fontFamily="@font/pretendard_medium"/>
 
     <RadioButton
         android:id="@+id/radioButton2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="제조일자를 입력할래요." />
+        android:text="제조일자를 입력할래요."
+        android:fontFamily="@font/pretendard_medium"/>
 
-    <RadioButton
-        android:id="@+id/radioButton3"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="유통기한을 입력할래요." />
+        <RadioButton
+            android:id="@+id/radioButton3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="유통기한을 입력할래요."
+            android:fontFamily="@font/pretendard_medium"/>
 
     </LinearLayout>
 
@@ -145,6 +153,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="3"
             android:inputType="number"
+            android:fontFamily="@font/pretendard_medium"
             />
 
         <TextView
@@ -152,6 +161,25 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="년"
+            android:fontFamily="@font/pretendard_medium"
+            android:layout_weight="1"
+            android:textSize="14sp"/>
+
+        <EditText
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:fontFamily="@font/pretendard_medium"
+            android:layout_weight="3"
+            />
+
+        <TextView
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="년"
+            android:fontFamily="@font/pretendard_medium"
             android:layout_weight="1"
             android:textSize="14sp"/>
 
@@ -161,6 +189,7 @@
             android:layout_height="wrap_content"
             android:inputType="number"
             android:layout_weight="3"
+            android:fontFamily="@font/pretendard_medium"
             />
 
         <TextView
@@ -168,22 +197,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="년"
-            android:layout_weight="1"
-            android:textSize="14sp"/>
-
-        <EditText
-            android:layout_gravity="center"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:inputType="number"
-            android:layout_weight="3"
-            />
-
-        <TextView
-            android:layout_gravity="center"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="년"
+            android:fontFamily="@font/pretendard_medium"
             android:layout_weight="1"
             android:textSize="14sp"/>
 
@@ -195,6 +209,7 @@
         android:layout_marginLeft="20dp"
         android:layout_width="340dp"
         android:layout_height="wrap_content"
+        android:fontFamily="@font/pretendard_medium"
         android:src="@drawable/service_use"/>
 
 
